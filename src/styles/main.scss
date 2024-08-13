@@ -1,25 +1,22 @@
-@use 'components/infos_bar';
 @use 'hero';
-@use 'components/buttons';
 @use 'event';
 @use 'variables';
+@use 'footer';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    list-style: none;
+    font-family: "bebas-neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden;
 }
 .container{
-    max-width: 960px;
-    width: 100%;
+    
+    width: 90%;
     margin: 0 auto;
-
-    @media (max-width: 640px){
-        max-width: 80%;
-    }
-    @media (max-width: 1024px){
-        max-width: 90%;
-    }
 }

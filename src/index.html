@@ -9,70 +9,147 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/moa3mrj.css">
+    <link rel="stylesheet" href="https://use.typekit.net/moa3mrj.css">
 </head>
 <body>
     <header class="hero">
+        <div class="hero__h2">
+            <img class="radiohead_img" src="images/fontbolt.png" alt="">
+            <h2>EVERYTHING IN ITS RIGHT PLACE</h2>
+            <img src="./images/tour.png" alt="">
+        </div>
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
-            <p class="hero__text">O maior evento de tecnologia do Brasil começa em: <span id="contador"></span> </p>
-            <div class="infos-bar">
-                <ul>
-                    <li class="infos-bar__infos__item">
-                        <b>Localização</b>
-                        Allianz Parque - Barra Funda - São Paulo
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Preço</b>
-                        A partir de R$ 120,00
-                    </li>
-                    <li class="infos-bar__infos__item">
-                        <b>Quando</b>
-                        12/12/2024 às 19hrs
-                    </li>
-                </ul>
-                <a class="button button--primary" href="">
-                    Garanta sua Vaga
-                </a>
+            <div class="hero__contador">
+                <p class="hero__text"><span id="dias"></span> </p>
+                <p class="hero__text"><span id="horas"></span> </p>
+                <p class="hero__text"><span id="minutos"></span> </p>
+                <p class="hero__text"><span id="segundos"></span> </p>
+            </div><br><br><br><br><br><br><br><br>                
+            <div class="hero__button">
+                <a href="#" class="button"><span>get ticket</span></a>
             </div>
         </div>
     </header>
+    <section class="event event--frontend1" > 
+        <div data-aos="fade-right">
+            <div class="event__details">
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
+            </div>
+        </div>
+    </section>
     <section class="event event--frontend" > 
-        <div class="container" data-aos="fade-right">
+        <div data-aos="fade-left">
             <div class="event__details">
-                <h2 class="event__details__title">Front-End</h2>
-                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione qui possimus expedita provident maiores? Id, obcaecati modi ducimus commodi, sed quo totam quisquam repudiandae atque expedita dignissimos odit! Minima, doloremque.</p>
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="frontend">
         </div>
     </section>
-    <section class="event event--ux-ui event--image-left" > 
-        <div class="container" data-aos="fade-left">
+    <section class="event event--frontend" > 
+        <div data-aos="fade-right">
             <div class="event__details">
-                <h2 class="event__details__title">UI/UX</h2>
-                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione qui possimus expedita provident maiores? Id, obcaecati modi ducimus commodi, sed quo totam quisquam repudiandae atque expedita dignissimos odit! Minima, doloremque.</p>
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="frontend">
         </div>
     </section>
-    <section class="event event--data-science"> 
-        <div class="container" data-aos="fade-right">
+    <section class="event event--frontend" > 
+        <div data-aos="fade-left">
             <div class="event__details">
-                <h2 class="event__details__title">Data Science</h2>
-                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione qui possimus expedita provident maiores? Id, obcaecati modi ducimus commodi, sed quo totam quisquam repudiandae atque expedita dignissimos odit! Minima, doloremque.</p>
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="frontend">
         </div>
     </section>
-    <section class="event event--backend event--image-left"> 
-        <div class="container" data-aos="fade-left">
+    <section class="event event--frontend" > 
+        <div data-aos="fade-right">
             <div class="event__details">
-                <h2 class="event__details__title">Back-end</h2>
-                <p class="event__details__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione qui possimus expedita provident maiores? Id, obcaecati modi ducimus commodi, sed quo totam quisquam repudiandae atque expedita dignissimos odit! Minima, doloremque.</p>
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="frontend">
         </div>
     </section>
+    <section class="event event--frontend" > 
+        <div data-aos="fade-left">
+            <div class="event__details">
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
+            </div>
+        </div>
+    </section>
+    <section class="event event--frontend" > 
+        <div data-aos="fade-right">
+            <div class="event__details">
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
+            </div>
+        </div>
+    </section>
+    <section class="event event--frontend" > 
+        <div data-aos="fade-left">
+            <div class="event__details">
+                <div class="event__main">
+                    <h2 class="event__details__title">OCT 11, 2024</h2>
+                    <p class="event__details__description">MADISON SQUARE GARDEN</p>
+                    <span>Sold Out</span>
+                </div>
+                <p class="city">NEW YORK, NY</p>
+                <a href="#">JOIN WAITLIST</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer__text">
+            develop by Rodrigues 2024 &copy;
+            <a href="https://github.com/humberto-rodrigz">
+                <img src="/src/images/381376_github_logo_icon.png" alt="">
+            </a>
 
+        </div>
+        <div class="footer__help">
+           <p>HELP & SUPORT</p>
+           <p>TERMS</p>
+           <p>PRIVACY</p>
+           <P>COOKIES</P>
+        </div>
+    </footer>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>

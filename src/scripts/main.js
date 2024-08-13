@@ -22,7 +22,12 @@ const contaAsHoras = setInterval(function() {
     
 
 
-    document.getElementById('contador').innerHTML = `${diasAteOEvento}d ${horasAteOEvento}h ${minutosAteOEvento}m ${seguntosAteOEvento}s`
+    document.getElementById('dias').innerHTML = `${diasAteOEvento}d`
+    document.getElementById('horas').innerHTML = `${horasAteOEvento}h`
+    document.getElementById('minutos').innerHTML = `${minutosAteOEvento}m`
+    document.getElementById('segundos').innerHTML = `${seguntosAteOEvento}s`
+
+
 
     if(distanciaAteOEvento <0){
         clearInterval(contaAsHoras);
